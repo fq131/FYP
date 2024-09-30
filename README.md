@@ -1,4 +1,4 @@
-# Face Recognition Attendance System with Liveness detection
+# Face Recognition Attendance System with Liveness Detection
 
 A new Flutter project.
 
