@@ -1,0 +1,41 @@
+name: face_recognition
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  face_camera: ^0.0.8
+  image: ^3.0.2
+  get: ^4.6.6
+  tflite_flutter_helper: ^0.2.1
+  tflite_flutter: ^0.9.5
+  google_mlkit_face_detection: ^0.6.0
+  image_picker: ^1.0.4
+  realm: ^1.5.0
+  path_provider: ^2.1.1
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.19.2
+  google_sign_in: ^6.2.1
+  cloud_firestore: ^4.17.0
+  intl: ^0.17.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+ 
+  uses-material-design: true
+  assets:
+    - assets/model_new.tflite
+    - assets/model_1.tflite
+    - assets/images/
+
